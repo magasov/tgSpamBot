@@ -1,0 +1,15 @@
+{
+	"token": "7178698755:AAF2E9K-u670btUAdfVXUToamumpqsKDgwk",
+	"premium": false,
+	"password": "1234",
+	"message": "test06",
+	"email": "77aushev@mail.ru",
+	"port": 5555,
+	"delay": 20,
+	"remove-banned-accounts": false,
+	"statuses": {
+		"collect-media": false,
+		"targeting": false,
+		"terminal": false
+	}
+}

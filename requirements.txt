@@ -1,0 +1,7 @@
+pyTelegramBotAPI
+dateparser
+openpyxl
+Telethon
+dublib
+pandas
+pyzmq

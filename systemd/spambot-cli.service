@@ -1,0 +1,19 @@
+# Скрипт инициализации CLI сервера SpamBot.
+#==========================================================================================#
+# {Application Directory} – путь к директории со скриптом.
+
+[Unit]
+Description=SpamBot
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory={Application Directory}
+ExecStart=/usr/bin/python3 main.py run -server
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
